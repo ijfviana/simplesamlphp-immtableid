@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Filter to generate the AzudeAD ImmutableID  attribute.
+ * Filter to generate the AzureAD ImmutableID  attribute.
  *
  * By default, this filter will generate the ID based on the UserID of the current user.
  * This is by default generated from the attribute configured in 'userid.attribute' in the
@@ -25,7 +25,7 @@
  * ),
  * </code>
  *
- * @author Olav Morken, UNINETT AS.
+ * @author Iñaki Fernández de Viana y González, UHU.
  * @package simpleSAMLphp
  */
 class sspmod_immutableid_Auth_Process_ImmutableID extends SimpleSAML_Auth_ProcessingFilter {
